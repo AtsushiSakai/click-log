@@ -86,10 +86,10 @@ The output will look like this::
 The ``error:``-prefix will be red, unless the output is piped to another
 command.
 
-The :py:func:`simple_verbosity_option` decorator adds a ``--verbosity`` option
-that takes a (case-insensitive) value of ``DEBUG``, ``INFO``, ``WARNING``,
-``ERROR``, or ``CRITICAL``, and calls ``setLevel`` on the given logger
-accordingly.
+The :py:func:`simple_verbosity_option` decorator adds a ``--verbosity`` option 
+(a short option ``-v`` is also available) that takes a (case-insensitive) value 
+of ``DEBUG``, ``INFO``, ``WARNING``, ``ERROR``, or ``CRITICAL``, and calls 
+``setLevel`` on the given logger accordingly.
 
 .. note::
 
